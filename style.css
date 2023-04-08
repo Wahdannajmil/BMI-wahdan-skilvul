@@ -44,16 +44,18 @@ body {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-.container-content i {
-    padding: 0;
-}
 .container-content h1 {
-    font-size: 26px;
-    margin: 38px 30px 30px 30px;
+    font-size: 24px;
+    margin: 10px 30px 30px 30px;
 }
 .container p {
     font-size: 16px;
     margin: 10px;
+}
+.container p2 {
+    font-size: 16px;
+    margin: 10px;
+    color:#ef5f6c;
 }
 .container-content input {
     background-color: #F8F9F9 ;
