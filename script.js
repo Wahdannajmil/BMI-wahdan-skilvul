@@ -1,7 +1,7 @@
 let hasilbmi = document.querySelector("#hasil-bmi");
 let klasifikasihasil = document.querySelector("#klasifikasi-hasil");
 let tb = document.querySelector("#input-tb");
-let bb = document.querySelector("input-bb");
+let bb = document.querySelector("#input-bb");
 
 // rumus : Berat Badan/(Tinggi Badan/100)^2
 // BMI Categories:
@@ -9,8 +9,8 @@ let bb = document.querySelector("input-bb");
 // Normal weight = 18.5 – 24.9
 // Overweight = 25 – 29.9
 // Obesity = BMI of 30 or greater
-const tampilHasil = () => {
-    const bmi = bb.value / (tb.value * bb.value) ^ 2;
+function tampilHasil () {
+    const bmi = bb.value / (tb.value/100)**2;
 
     if (tb.value === '' || bb.value === '') {
         hasilbmi.innerHTML = "Masukkan nilai yang valid."
