@@ -9,7 +9,7 @@ let bb = document.querySelector("#input-bb");
 // Normal weight = 18.5 – 24.9
 // Overweight = 25 – 29.9
 // Obesity = BMI of 30 or greater
-function tampilHasil () {
+const tampilHasil = () => {
     const bmi = bb.value / (tb.value/100)**2;
 
     if (tb.value === '' || bb.value === '') {
