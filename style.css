@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 *{
     padding: 0;
@@ -43,12 +44,13 @@ body {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-
+.container-content i {
+    padding: 0;
+}
 .container-content h1 {
     font-size: 26px;
-    margin: 30px;
+    margin: 38px 30px 30px 30px;
 }
-
 .container p {
     font-size: 16px;
     margin: 10px;
